@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villavi.Shared", "Villavi.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villavi.Web", "Villavi.Web\Villavi.Web.csproj", "{409DC8AF-302D-4CA3-BFC0-97540C0D5BF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villavi.Api", "Villavi.Api\Villavi.Api.csproj", "{169C454E-2C4D-482C-809A-533B471A6C47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{409DC8AF-302D-4CA3-BFC0-97540C0D5BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{409DC8AF-302D-4CA3-BFC0-97540C0D5BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{409DC8AF-302D-4CA3-BFC0-97540C0D5BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169C454E-2C4D-482C-809A-533B471A6C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169C454E-2C4D-482C-809A-533B471A6C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169C454E-2C4D-482C-809A-533B471A6C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169C454E-2C4D-482C-809A-533B471A6C47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
