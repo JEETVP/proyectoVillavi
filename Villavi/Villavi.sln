@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villavi.Shared", "Villavi.Shared\Villavi.Shared.csproj", "{45F630A3-D266-4B71-B13D-E0CA64E1EAE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villavi.Web", "Villavi.Web\Villavi.Web.csproj", "{409DC8AF-302D-4CA3-BFC0-97540C0D5BF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45F630A3-D266-4B71-B13D-E0CA64E1EAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F630A3-D266-4B71-B13D-E0CA64E1EAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F630A3-D266-4B71-B13D-E0CA64E1EAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F630A3-D266-4B71-B13D-E0CA64E1EAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409DC8AF-302D-4CA3-BFC0-97540C0D5BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409DC8AF-302D-4CA3-BFC0-97540C0D5BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409DC8AF-302D-4CA3-BFC0-97540C0D5BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409DC8AF-302D-4CA3-BFC0-97540C0D5BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D575D696-4098-485C-A366-CABC4B55BAAD}
+	EndGlobalSection
+EndGlobal
