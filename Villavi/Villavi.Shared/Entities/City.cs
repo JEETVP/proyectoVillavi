@@ -13,6 +13,7 @@ namespace Villavi.Shared.Entities
         [Required]
         [MaxLength(100, ErrorMessage ="El campo {0] debe tener maximo {1] caracteres")]
         [Display(Name="Ciudad")]
-        public string Name { get; set; }    
+        public string? Name { get; set; }    
+        public Country? Country { get; set; }
     }
 }

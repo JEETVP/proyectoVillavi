@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace Villavi.Shared.Entities
 {
-    public class Country
+    public class Company
     {
         public int Id { get; set; }
         [Required]
         [MaxLength(100, ErrorMessage = "El campo {0] debe tener maximo {1] caracteres")]
-        [Display(Name = "Pais")]
-        public string? Name { get; set; }    
+        [Display(Name = "Empresa")]
+        public string? Name { get; set; }
+        public City? City { get; set; }
     }
 }
