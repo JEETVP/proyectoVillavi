@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Villavi.Api;
 using Villavi.Shared.Entities;
 
 namespace Villavi.Api
@@ -32,8 +33,8 @@ namespace Villavi.Api
                 x.Password.RequiredUniqueChars = 0;
                 x.Password.RequiredLength = 6;
             })
-.AddEntityFrameworkStores<DataContext>()
-.AddDefaultTokenProviders();
+            .AddEntityFrameworkStores<DataContext>()
+            .AddDefaultTokenProviders();
 
             var app = builder.Build();
             SeedApp(app);
